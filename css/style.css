@@ -1,0 +1,198 @@
+
+.hero .carousel-inner .carousel-item .carousel-caption{
+    bottom: 45%;
+}
+.hero .carousel-inner .carousel-item .carousel-caption h5{
+    font-size: 60px;
+    color: rgb(97, 212, 149);
+}
+
+.hero .carousel-inner .carousel-item .carousel-caption p{
+    font-size: 30px;
+}
+
+.hero .carousel-indicators{
+    bottom: 40%;
+}
+
+
+#navbarNav{
+    justify-content: flex-end;
+}
+
+#block1{
+    width: 100%;
+    position: relative;
+    padding-bottom: 400px;
+}
+
+#block1 #nosotros{
+    background-color: #cdd2d3;
+    padding: 40px;
+    box-shadow: 0 0px 10px -1px #999999;
+    position: absolute;
+    top: -50px;
+    max-width: 1140px;
+    width: 90%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+
+
+}
+
+#block1 #nosotros .b-izq{
+    padding-right: 40px;
+}
+
+#block1 #nosotros .b-der img{
+    height: 80px;
+}
+
+#block1 #nosotros .b-der h3{
+    color: rgb(97, 128, 212);
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+#block1 #nosotros .b-der .services{
+    padding: 0px 20px;
+}
+
+#block1 #nosotros .b-der .services p{
+    font-size: 14px;
+}
+
+
+
+#block2 {
+    width: 100%;
+    background: #d4af37;
+    padding: 100px 0;
+}
+
+#block2 #servicios {
+    background: #006064;
+    padding: 40px;
+    box-shadow: 0 0px -1px #999999;
+    top: -50px;
+    max-width: 1140;
+    width: 90%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+#block2 #servicios .nueva img{
+    height: 120px;
+}
+
+#block2 #servicios .nueva h3{
+    color: white;
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+#block2 #servicios .nueva p{
+    font-size: 14px;
+}
+
+#block2 .card-services{
+    background: #ffffff;
+    box-shadow: 0 0px -1px #999999;
+    margin: 0 auto;
+    padding: 0 0 50px 0;
+}
+
+#block3{
+    padding:  100px 0;
+    background: #836e29;
+}
+
+#block3 h2{
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+
+#block3 #nav-tab a{
+    color: #ffffff;
+    font-size: 22px;
+
+}
+
+#block3 #nav-tab a:hover{
+    border: none;
+}
+
+#block3 #nav-tab a.active{
+    color: #836e29;
+}
+
+#block3 #nav-tab{
+    justify-content: center;
+}
+
+#block3 .tab-pane{
+    padding: 40px;
+    color: #ffffff;
+}
+
+#block4{
+    padding: 100px 0;
+
+}
+
+#block4 h2{
+    color: #006064;
+    text-align: center;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+
+}
+
+#block4 table thead{
+    background: #006064;
+    color: #ffffff;
+}
+
+header .nav-wasa{
+   background: #836e29;
+   color: #ffffff;
+}
+
+header .nav-wasa ul li a{
+    color: #ffffff;
+}
+
+
+@media screen and (max-widh: 768px) and (min-widh: 320px) {
+    
+}
+.hero .carousel-indicators {
+    display: none;
+}
+
+#block1 #nosotros .b-izq {
+    text-align: center;
+    padding-right: 0;
+    padding-bottom: 60px;
+
+}
+
+#block1 #nosotros .b-der .services{
+    margin-bottom: 50px;
+    box-shadow: 0 0 10px -1px #999999;
+    padding: 50px;
+}
+#block2 #servicios {
+    text-align: center;
+    padding-right: 0;
+    padding-bottom: 60px;
+}
+
+#block2 #servicios .nueva{
+    margin-bottom: 50px;
+    box-shadow: 0 0 5px -1px #999999;
+    padding: 50px;
+}
+
